@@ -21,7 +21,7 @@
 
 <hr></hr>
 
-![](C:\Users\multicampus\Desktop\요가 - 복사본\img\intro.PNG)
+![](C:\Users\multicampus\Desktop\요가 - 복사본\img\intro.png)
 
 - FE : 박철완, 최준호
 - BE : 안준웅, 신재복, 최준호, 이경섭
@@ -31,7 +31,7 @@
 ### 🔥 기획배경 🔥
 <hr></hr>
 
-![](C:\Users\multicampus\Desktop\요가 - 복사본\img\기획배경.PNG)
+![](C:\Users\multicampus\Desktop\요가 - 복사본\img\기획배경.png)
 
 
 
@@ -45,7 +45,7 @@
 
 
 
-![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main1.PNG)
+![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main1.png)
 
 
 
@@ -57,13 +57,13 @@
 
 
 
-![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main2.PNG)
+![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main2.png)
 
 
 
 
 
-![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main3.PNG)
+![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main3.png)
 
 
 
@@ -71,4 +71,4 @@
 
 
 
-![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main4.PNG)
+![](C:\Users\multicampus\Desktop\요가 - 복사본\img\main4.png)

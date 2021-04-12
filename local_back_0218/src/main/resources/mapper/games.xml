@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.openvidu.js.java.dao.GameDao">
+
+	<select id="liarGame" resultType="String">
+		SELECT subject
+		FROM
+		liargame
+		where id = #{id}
+	</select>
+	
+	<select id="recommend" resultType="String">
+		SELECT game
+		FROM
+		recommendgame
+		where id = #{id}
+	</select>
+
+	<select id="topicGame" resultType="String">
+		SELECT topic
+		FROM
+		topicgame
+		where id = #{id} and level = #{level}
+	</select>
+
+
+</mapper>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.openvidu.js.java.dao.RoomDao">
+
+	<insert id="makeroom" parameterType="RoomDto">
+		insert into room(
+		owner_id,
+		title, theme, rate, introduce, thumbnail, maleNum,femaleNum, maxNum
+		) values (
+		#{owner_id}, #{title}, #{theme}, #{rate}, #{introduce},
+		#{thumbnail},#{maleNum},#{femaleNum}, #{maxNum}
+		)
+	</insert>
+
+	<select id="findroom" resultType="RoomDto">
+		select *
+		from room
+		where
+		title =
+		#{title}
+	</select>
+
+	<delete id="deleteroom">
+		delete from room where session_id=#{session_id}
+	</delete>
+
+	<select id="overlapCheck" resultType="Integer">
+		select count(title)
+		from
+		room
+		where title = #{title}
+	</select>
+
+	<select id="showroom" resultType="RoomDto">
+		select *
+		from room
+		ORDER BY session_id DESC
+	</select>
+
+	<select id="selectroom" resultType="RoomDto">
+		select *
+		from room
+		where
+		session_id=#{session_id}
+	</select>
+
+	<update id="updateRoom" parameterType="RoomDto">
+		update room set
+		maleNum=#{maleNum}, femaleNum=#{femaleNum},
+		owner_id=#{owner_id},title=#{title}, theme=#{theme},
+		thumbnail=#{thumbnail}, introduce=#{introduce},rate=#{rate}
+		where
+		session_id=#{session_id}
+	</update>
+
+</mapper>
